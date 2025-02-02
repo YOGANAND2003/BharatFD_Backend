@@ -1,0 +1,27 @@
+{
+  "name": "faq-node",
+  "version": "1.0.0",
+  "description": "FAQ Management System with Node.js and Express",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "@google-cloud/translate": "^7.2.0",
+    "@vitalets/google-translate-api": "^9.2.1",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "redis": "^4.6.5",
+    "translate": "^3.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.2.0",
+    "nodemon": "^3.0.2"
+  }
+}
